@@ -238,3 +238,32 @@ main .sobre {
         transform: translate3d(0, 0, 0);
     }
 }
+
+/* MINHAS EXPERIÊNCIAS */
+
+.section-experiencias {
+    margin-top: 60px;
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    color: #3FA110;
+    margin-bottom: 15px;
+}
+
+.section-experiencias div {
+    border: 1px solid #fff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+.section-experiencias h2 {
+    margin-bottom: 20px;
+    color: #3FA110;
+}
