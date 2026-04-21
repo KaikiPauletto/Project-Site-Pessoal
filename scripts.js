@@ -12,3 +12,18 @@ function escrevendoLetra(){
     const titulo = document.querySelector('.digitando');
     ativaLetra(titulo);
 }
+
+const menu = document.querySelector(".navegacao-primaria");
+const botao = document.querySelector(".menu-toggle");
+
+botao.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+});
+
+document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("ativo");
+    });
+});
+
+escrevendoLetra() 
